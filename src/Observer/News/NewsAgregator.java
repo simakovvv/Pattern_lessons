@@ -15,9 +15,6 @@ public class NewsAgregator implements ISubject {
     private List<IObserver> observers;
 
     public NewsAgregator(){
-        twitterWiget = new TwitterWiget(getTwitterWiget());
-        lentaWiget = new LentaWiget();
-        tvWiget = new TvWiget();
         random = new Random();
         observers = new LinkedList<>();
     }
