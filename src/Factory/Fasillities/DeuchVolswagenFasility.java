@@ -1,21 +1,27 @@
 package Factory.Fasillities;
 
 import Factory.Cars.*;
+import Factory.PartsFactory.CarPartsFactory;
+import Factory.PartsFactory.DeuchCarPartsFactory;
+import Factory.PartsFactory.RussianCarPartsFactory;
 
 public class DeuchVolswagenFasility extends VoltswagerFasilities {
+    private CarPartsFactory carPartsFactory;
     @Override
     public Car CreateCar(String type) {
-        Car car = new Car();
+
+
+        carPartsFactory = new DeuchCarPartsFactory();
 
         if(type == "Golf"){
-            car = new DeuchGolf();
+            return new Golf(carPartsFactory);
         } else if(type == "Passat"){
-            car = new DeuchPassat();
+            return new Passat(carPartsFactory);
         } else if(type == "Tiguan"){
-            car = new DeuchTiguan();
+            return new Tiguan(carPartsFactory);
         }else if(type == "Tuareg"){
-            car = new DeuchTuareg();
+            return new Tuareg(carPartsFactory);
         }
-        return car;
+        return null;
     }
 }

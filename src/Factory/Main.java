@@ -1,6 +1,6 @@
 package Factory;
 
-import Factory.Factory.SimpleFactory;
+
 import Factory.Fasillities.DeuchVolswagenFasility;
 import Factory.Fasillities.RussianVolswagenFasility;
 import Factory.Fasillities.VoltswagerFasilities;
@@ -11,7 +11,7 @@ import java.io.UnsupportedEncodingException;
 public class Main {
     public static void main(String[] args) throws FileNotFoundException, UnsupportedEncodingException {
 
-        VoltswagerFasilities v = new RussianVolswagenFasility();
+        VoltswagerFasilities v = new DeuchVolswagenFasility();
         v.getCar("Golf");
         System.out.println();
         v.getCar("Passat");

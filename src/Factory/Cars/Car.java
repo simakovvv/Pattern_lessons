@@ -1,23 +1,21 @@
 package Factory.Cars;
 
+import Factory.Parts.AbstractParts.Engine;
+import Factory.Parts.AbstractParts.Paint;
+import Factory.Parts.AbstractParts.Wheels;
+
 import java.io.FileNotFoundException;
 import java.io.UnsupportedEncodingException;
 import java.util.Formatter;
 
-public class Car {
+public abstract class Car {
     protected String name = "";
-    protected String engine = "Diesel";
-    protected String paintColor = "White";
-    protected String wheels = "16 inch";
     protected String body = "Caravan";
 
-    public void Configure() throws FileNotFoundException, UnsupportedEncodingException {
-        System.out.println(("Configuring: "+ name));
-        System.out.println(("Configuring: "+ engine));
-        System.out.println(("Configuring: "+ paintColor));
-        System.out.println(("Configuring: "+ wheels));
-        System.out.println(("Configuring: "+ body));
-    }
+    protected Paint paintColor ;
+    protected Wheels wheels ;
+    protected Engine engine ;
+    public abstract void Configure();
 
     public void AssembleBody(){
         System.out.println("Body is assembled");

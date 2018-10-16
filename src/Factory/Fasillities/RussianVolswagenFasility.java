@@ -1,21 +1,26 @@
 package Factory.Fasillities;
 
 import Factory.Cars.*;
+import Factory.PartsFactory.CarPartsFactory;
+import Factory.PartsFactory.RussianCarPartsFactory;
 
 public class RussianVolswagenFasility extends VoltswagerFasilities {
+    private CarPartsFactory carPartsFactory;
     @Override
     public Car CreateCar(String type) {
-        Car car = new Car();
+
+
+        carPartsFactory = new RussianCarPartsFactory();
 
         if(type == "Golf"){
-            car = new RussianGolf();
+            return new Golf(carPartsFactory);
         } else if(type == "Passat"){
-            car = new RussianPassat();
+            return new Passat(carPartsFactory);
         } else if(type == "Tiguan"){
-            car = new RussianTiguan();
+            return new Tiguan(carPartsFactory);
         }else if(type == "Tuareg"){
-            car = new RussianTuareg();
+            return new Tuareg(carPartsFactory);
         }
-        return car;
+        return null;
     }
 }
