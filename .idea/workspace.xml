@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="83cbc4a1-cc95-4b26-8b49-302c741f1832" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Facade/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/WachingMachine/Dryer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/WachingMachine/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/WachingMachine/Termo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/WachingMachine/WachingMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Facade/WachingMachine/WaterManagingSubsystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,6 +15,7 @@
     <session id="623773261">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.9" value="1" />
@@ -41,13 +36,13 @@
         <counts>
           <entry key="dummy" value="85" />
           <entry key="java" value="7568" />
-          <entry key="txt" value="85" />
+          <entry key="txt" value="101" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JAVA" value="7568" />
-          <entry key="PLAIN_TEXT" value="170" />
+          <entry key="PLAIN_TEXT" value="186" />
         </counts>
       </usages-collector>
     </session>
@@ -57,7 +52,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Facade/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
+            <state relative-caret-position="238">
               <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
             </state>
           </provider>
@@ -250,7 +245,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539708167595" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539713275874" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -367,7 +362,7 @@
       <updated>1539004656633</updated>
       <workItem from="1539004661248" duration="29295000" />
       <workItem from="1539242356615" duration="12994000" />
-      <workItem from="1539698040889" duration="5818000" />
+      <workItem from="1539698040889" duration="6450000" />
     </task>
     <task id="LOCAL-00001" summary="commit with 2nd lesson">
       <created>1539024944993</created>
@@ -397,15 +392,21 @@
       <option name="project" value="LOCAL" />
       <updated>1539700987325</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Lesson6&#10; Facade complited">
+      <created>1539713272525</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1539713272525</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48107000" />
+    <option name="totallyTimeSpent" value="48739000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" x="1071" y="163" width="162" height="503" id="Project" order="0" visible="true" weight="0.16040269" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -416,7 +417,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41218132" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.41218132" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,7 +450,8 @@
     <MESSAGE value="Lesson3 Decorator complited" />
     <MESSAGE value="Lesson4 part1&#10; Factory complited" />
     <MESSAGE value="Lesson5&#10; Adapter complited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson5&#10; Adapter complited" />
+    <MESSAGE value="Lesson6&#10; Facade complited" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson6&#10; Facade complited" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Decorator/Beverage/GreenTea.java">
@@ -856,7 +858,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Facade/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
+        <state relative-caret-position="238">
           <caret line="14" column="33" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
         </state>
       </provider>
